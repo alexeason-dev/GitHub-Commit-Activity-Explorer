@@ -27,7 +27,16 @@ const useGitHubRepoSearch = () => {
 
 const fetchCommitsData = async (repoName) => {
   try {
-    const { data: commitsData } = await axios.get(`https://api.github.com/repos/${repoName}/commits`);
+    const oneYearAgo = new Date();
+    oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+    const timestamp = oneYearAgo.toISOString();
+
+    const { data: commitsData } = await axios.get(`https://api.github.com/repos/${repoName}/commits`, {
+      params: {
+        since: timestamp,
+      },
+    });
+
     return commitsData;
   } catch (error) {
     console.error('Error fetching commits data:', error);

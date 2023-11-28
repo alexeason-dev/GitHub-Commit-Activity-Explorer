@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { GitHub } from 'react-feather';
 import Sidebar from '../layouts/Sidebar';
@@ -9,6 +9,7 @@ import SelectedReposList from '../components/SelectedList';
 import { Tab, Tabs } from '../components/common/Tabs';
 import Chart from '../components/Chart';
 import History from '../components/History';
+import { sentimentAnalysis } from '../services/SentimentAnalysis';
 
 const CommitComparisonView = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);

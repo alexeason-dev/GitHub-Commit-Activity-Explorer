@@ -38,7 +38,7 @@ const Chart = ({ data }) => {
             x: {
               title: {
                 display: true,
-                text: 'Dates in Weeks',
+                text: 'Week Count',
               },
             },
           },

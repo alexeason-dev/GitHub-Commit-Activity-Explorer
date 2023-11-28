@@ -48,7 +48,7 @@ const useTransformCommit = () => {
     });
 
     return {
-      labels: datasets.length > 0 ? Object.keys(datasets[0].data || {}).map((date) => new Date(date).toLocaleDateString()) : [],
+      labels: datasets.length > 0 ? Object.keys(datasets[0].data || {}).map((date, index) => `Week ${index + 1}`) : [],
       datasets,
     };
   };
