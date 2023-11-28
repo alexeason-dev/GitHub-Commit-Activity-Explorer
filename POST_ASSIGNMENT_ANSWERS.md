@@ -1,4 +1,4 @@
-Describe the major design/build decisions and why you made them?
+Describe the major design/build decisions and why you made them?  <br>
 A pivotal decision in this assessment was centered around State Management. I opted not to use Redux but instead employed the Context API, prioritizing a lightweight approach to state management at this stage. For state mutation, I utilized SWR hooks. The design incorporates a well-structured layout, including a sidebar and navbar. While considering a front-end caching mechanism using Redis, I refrained from its implementation due to concerns about potential application heaviness.
 
 How long did the assignment take (in hours)? Please break down your answer into buckets (e.g. "Learning Framework", "Coding", "Debugging")
