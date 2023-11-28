@@ -1,0 +1,55 @@
+{
+  "name": "github-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@material-tailwind/react": "^2.1.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "chart.js": "^4.4.0",
+    "crypto-js": "^4.2.0",
+    "feather-icons": "^4.29.1",
+    "heroicons": "^2.0.18",
+    "loadash": "^1.0.0",
+    "openai": "^4.20.1",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-autosuggest": "^10.1.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-scripts": "^5.0.1",
+    "swr": "^2.2.4",
+    "tailwindcss": "^3.3.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts --require postcss start",
+    "build": "react-scripts --require postcss build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
