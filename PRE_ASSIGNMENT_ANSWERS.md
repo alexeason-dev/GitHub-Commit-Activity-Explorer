@@ -11,5 +11,4 @@ List two or three features that you would consider implementing in the future th
 In the future, I aim to introduce the history feature, as previously described. Additionally, implementing authentication could enhance the project's functionality and security.
 
 Are there any clarifying questions you would ask? If you're able to make assumptions about these and continue, please record and share your assumptions.
-Not applicable.
-
+I have assumed that sentiment analysis is required on one issue of the repository, not all issues. Furthermore, I have assumed that for simplicity we can just take 5 top comments on that issue to do the analysis. But it could be extended to all the comments on that issue in future.
